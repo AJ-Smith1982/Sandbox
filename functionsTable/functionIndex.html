@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATL Function Index</title>
+  <link rel="stylesheet" href="functionIndexStyles.css"> <!-- LINK CSS FILE-->
+  <script src="functionIndexScript.js"></script> <!-- LINK TO JAVASCRIPT FILE-->
+</head>
+<body>
+  
+  <!-- TOP INDEX CONTAINER -->
+  <div class="index-container">
+    <h3>Topic Index</h3>
+    <ul>
+      <li><a href="#section1">ATL Function Index (return to top)</a></li>
+    </ul>
+  </div>
+
+  <!-- MAIN CONTENT CONTAINER  -->
+  <div class="main-content">
+    
+    <!-- SECTION 1 -->
+    <h1 id="section1">ATL Function Index</h1>
+    <p>All functions are shown in alphabetical order. Click on the links to access dedicated function topics.</p>
+    <p>Use the buttons below to filter the table by function group.</p>
+    
+    <!-- FILTER BUTTONS CONTAINER -->
+    <div class="button-container">
+      <button class="group-button" onclick="filterTable('all')">Show All</button>
+      <button class="group-button" onclick="filterTable('datetime')">Datetime</button>
+      <button class="group-button" onclick="filterTable('formatting')">Formatting</button>
+      <button class="group-button" onclick="filterTable('language')">Language</button>
+      <button class="group-button" onclick="filterTable('math')">Math</button>
+      <button class="group-button" onclick="filterTable('statistics')">Statistics</button>
+      <button class="group-button" onclick="filterTable('test')">Test</button>
+    </div>
+    <!-- END OF CONTAINER -->
+
+    <table width="100%" id="functionsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Group</th>  
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>abbreviateNumber()</td>
+          <td>Formatting</td>
+          <td>Returns large number values in abbreviated form.</td>
+        </tr>
+        <tr>
+          <td>abs()</td>
+          <td>Math</td>
+          <td>Returns the absolute value of the given number.</td>
+        </tr>
+        <tr>
+          <td>absDiff()</td>
+          <td>Math</td>
+          <td>Returns the absolute difference between two numbers.</td>
+        </tr>
+        <tr>
+          <td>asDays()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to days.</td>
+        </tr>
+        <tr>
+          <td>asHours()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to hours.</td>
+        </tr>
+        <tr>
+          <td>asMilliseconds()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to milliseconds.</td>
+        </tr>
+        <tr>
+          <td>asMinutes()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to minutes.</td>
+        </tr>
+        <tr>
+          <td>asMonths()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to months.</td>
+        </tr>
+        <tr>
+          <td>asWeeks()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to weeks.</td>
+        </tr>
+        <tr>
+          <td>asYears()</td>
+          <td>Datetime</td>
+          <td>Converts seconds to years.</td>
+        </tr>
+        <tr>  
+          <td>chooseAtRandom()</td>
+          <td>Language</td>
+          <td>Randomly selects and outputs one of the given arguments.</td> 
+        </tr>
+        <tr>
+          <td>concat()</td>
+          <td>Language</td>
+          <td>Joins all the input strings into a single string.</td>
+        </tr>
+        <tr>
+          <td>consolePrint()</td>
+          <td>Test</td>
+          <td>Generates a statement in the console log area.</td>
+        </tr>
+        <tr>
+          <td>count()</td>
+          <td>Math</td>
+          <td>Counts how many times a specified value appears in the dataset.</td>
+        </tr>
+        <tr>
+          <td>countryAdjective()</td>
+          <td>Language</td>
+          <td>Returns the given country name in its adjective form.</td>
+        </tr>
+        <tr>
+          <td>countryDeterminer()</td>
+          <td>Language</td>
+          <td>Returns the given country name with a 'the' determiner, if required.</td>
+        </tr>
+        <tr>
+          <td>currency()</td>
+          <td>Formatting</td>
+          <td>Returns the given number as a currency expression.</td>
+        </tr>
+        <tr>
+          <td>dateTimeDifference()</td> 
+          <td>Datetime</td>
+          <td>Returns the difference (in seconds) between two datetime objects.</td>
+        </tr>
+        <tr>
+          <td>diff()</td>
+          <td>Math</td>
+          <td>Returns the difference between two numbers.</td>
+        </tr>
+        <tr>
+          <td>div()</td>
+          <td>Math</td>
+          <td>Returns the quotient of dividing two numbers.</td>
+        </tr>
+        <tr>
+          <td>endsWith()</td>
+          <td>Test</td>
+          <td>Tests if a string value ends with the given suffix.</td>
+        </tr>
+        <tr>
+          <td>formatDateTime()</td>
+          <td>Formatting</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>formatDuration()</td>
+          <td>Formatting</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>formatNumber()</td>
+          <td>Formatting</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>frequency()</td>
+          <td>Statistics</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>gender()</td>
+          <td>Language</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>getCurrentTime()</td>
+          <td>Datetime</td>
+          <td>Returns a datetime object for the current date and time.</td>
+        </tr>
+        <tr>
+          <td>getRandomNumber()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>inflectNoun()</td>
+          <td>Language</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>inflectVerb()</td>
+          <td>Language</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>isTypeArray()</td>
+          <td>Test</td>
+          <td>Tests if the given value's data type = array.</td>
+        </tr>
+        <tr>
+          <td>isTypeBoolean()</td>
+          <td>Test</td>
+          <td>Tests if the given value's data type = boolean.</td>
+        </tr>
+        <tr>
+          <td>isTypeNumber()</td>
+          <td>Test</td>
+          <td>Tests if the given value's data type = number.</td>
+        </tr>
+        <tr>
+          <td>isTypeObject()</td>
+          <td>Test</td>
+          <td>Tests if the given value's data type = object.</td>
+        </tr>
+        <tr>
+          <td>isTypeString()</td>
+          <td>Test</td>
+          <td>Tests if the given value's data type = string.</td>
+        </tr>
+        <tr>
+          <td>maxVal()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>mean()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>median()</td>
+          <td>Math</td>
+          <td>Returns the median value of the given dataset.</td> 
+        </tr>
+        <tr>
+          <td>minVal()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>mode()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>numberAsMonth()</td>
+          <td>Datetime</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>numberAsWeekday()</td>
+          <td>Datetime</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>numberToWords()</td>
+          <td>Language</td>
+          <td>Converts the given number to words.</td>
+        </tr>
+        <tr>
+          <td>outliersGrubbsTest()</td>
+          <td>Statistics</td>
+          <td>Detects outliers by applying Grubb's test.</td>
+        </tr>
+        <tr>
+          <td>outliersTukeyFence()</td>
+          <td>Statistics</td>
+          <td>Detects outliers using the Tukey's Fences method.</td>
+        </tr>
+        <tr>
+          <td>outliersZScore()</td>
+          <td>Statistics</td>
+          <td>Detects outliers using the Z-score method.</td>
+        </tr>
+        <tr>
+          <td>pearsonCorrelation()</td>
+          <td>Statistics</td>
+          <td>Calculates the Pearson correlation coefficient for two series of numbers.</td>
+        </tr>
+        <tr>
+          <td>percentage()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>percentageChange()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>percentile()</td>
+          <td>Statistics</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>power()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>precision()</td>
+          <td>Formatting</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>product()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>pronoun()</td>
+          <td>Language</td>
+          <td>Returns the correct pronoun for the input name or gender.</td>
+        </tr>
+        <tr>
+          <td>rank()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>rollingCorrelation()</td>
+          <td>Statistics</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>root()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>round()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>setTimeZone()</td>
+          <td>Datetime</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>standardDeviation()</td>
+          <td>Statistics</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>startsWith()</td>
+          <td>Test</td>
+          <td>Tests if a string value starts with the given prefix.</td>
+        </tr>
+        <tr>
+          <td>sum()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>toReachThreshold()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>truncate()</td>
+          <td>Math</td>
+          <td>TBC</td>
+        </tr>
+        <tr>
+          <td>variance()</td>
+          <td>Statistics</td>
+          <td>TBC</td>
+        </tr>
+  
+      </tbody>
+    </table>
+    <hr>
+  </div>
+</body>
+</html>
